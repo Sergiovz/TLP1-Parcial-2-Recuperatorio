@@ -55,7 +55,7 @@ ctrlReservas.crearReserva = async (req, res) => {
         cantidad_personas,
         telefono,
         email
-    } = req.body; // JSON.stringify(reserva);
+    } = req.body;
 
     try {
         const nuevaReserva = await Reserva.create({
