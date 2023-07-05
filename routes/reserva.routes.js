@@ -12,7 +12,7 @@ router.get('/', renderListaReservas);
 // Formulario para crear una reserva
 router.get('/crear-reserva', renderFormNuevaReserva);
 // Formulario para actualizar una reserva
-router.get('/actualizar-reserva/:id', renderFormEditarReserva); // para capturar :id -> req.params.id
+router.get('/actualizar-reserva/:id', renderFormEditarReserva);
 
 
 // ==========================================
